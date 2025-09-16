@@ -2,8 +2,6 @@
 
 This repository demonstrates a true multi-agent orchestration system. Multiple agents — inventory, quoting, and ordering — work collaboratively in a pipeline, coordinated by the `orchestrator.py` module. Each agent handles a specific responsibility, and the orchestrator manages the flow of data and task sequencing.
 
-![Multi-Agents Architecture Diagram](multi-agents-architecture-diagram.png)
-
 ## Features
 
 - **True multi-agent orchestration:** Agents are coordinated in a pipeline, not combined into a single monolithic agent.
@@ -16,21 +14,7 @@ This repository demonstrates a true multi-agent orchestration system. Multiple a
 
 The architecture follows a pipeline model:
 
-```
-Customer Request
-    │
-    ▼
- Inventory Agent   (checks stock, recommends alternatives)
-    │
-    ▼
- Quoting Agent     (generates quote based on inventory & history)
-    │
-    ▼
- Ordering Agent    (finalizes order, records transaction, estimates delivery)
-    │
-    ▼
- Customer Response
-```
+![Multi-Agents Architecture Diagram](multi-agents-architecture-diagram.png)
 
 The orchestrator (`orchestrator.py`) coordinates this flow, passing outputs from one agent to the next and handling errors at each stage.
 
@@ -61,7 +45,7 @@ The `main.py` script loads sample requests from CSV, runs them through the multi
 ├── agents.py                 # Inventory, quoting, and ordering agent definitions
 ├── orchestrator.py           # Multi-agent orchestrator coordinating the pipeline
 ├── entities.py               # Pydantic models for requests, quotes, and errors
-├── main.py        # Main script to initialize DB and run test scenarios
+├── main.py                   # Main script to initialize DB and run test scenarios
 ├── multi-agents-architecture-diagram.png
 ├── README.md
 └── poetry.toml

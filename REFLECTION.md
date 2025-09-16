@@ -10,11 +10,11 @@ The system is organized around three main agents and a central orchestrator:
 
 The **orchestrator** coordinates everything. It receives customer requests, delegates tasks to the appropriate agents, collects their responses, and returns a clear, customer-friendly reply. This modular design allows for easy addition of new agents in the future.
 
-**Workflow:**  
 Customer request → Inventory check → Quote generation → Order finalization → Response
 
 ## 2. What We Learned from the Test Results
 
+[See test results.](results/test_results.csv)  
 Testing with sample requests (`test_results.csv`) revealed:
 
 - **Inventory handling works well**: Orders that couldn't be fulfilled due to stock shortages were clearly flagged (e.g., requests 6, 11, 20).
