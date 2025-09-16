@@ -1,0 +1,24 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,45102.7,4940.299999999999,The order has been successfully processed with a total cost of $38.70.
+2,2025-04-03,45102.7,4940.299999999999,"Order finalized. Transaction IDs: Colorful poster paper - 26, Streamers - 27, Balloons - 28."
+3,2025-04-04,45102.7,4940.299999999999,Order has been finalized successfully with Transaction ID: 29.
+4,2025-04-05,410602.7,4940.299999999999,The order for the Non-Profit Director has been finalized with a total cost of 328950.0 after discount.
+5,2025-04-05,410884.85,4850.3,Order has been successfully finalized for Colored Paper and Cardstock.
+6,2025-04-06,410884.85,4850.3,"Transaction created with ID: 35, indicating the order could not be fulfilled due to stock issues."
+7,2025-04-07,412864.85,4850.3,Order has been successfully recorded.
+8,2025-04-07,412914.85,4850.3,Order finalized successfully with Transaction ID: 40.
+9,2025-04-07,412944.85,4850.3,"Order finalized with the following transactions:
+- Transaction ID: 41 - Item: A4 white printer paper - Quantity: 200
+- Transaction ID: 42 - Item: A3 glossy paper - Quantity: 100
+- Transaction ID: 43 - Item: 100% recycled kraft paper envelopes - Quantity: 50"
+13,2025-04-08,412989.85,4820.3,Order has been successfully finalized for the customer 'School Principal' with total amount $40.5.
+12,2025-04-08,412989.85,4820.3,46
+10,2025-04-08,413084.85,4820.3,Order finalized with transactions for High-Quality Glossy Paper (ID: 47) and Sturdy Cardstock (ID: 48).
+11,2025-04-08,413084.85,4820.3,Order cannot be fulfilled due to lack of inventory for A3 glossy paper and A4 matte paper.
+14,2025-04-09,439566.45000000007,4495.3,Order for high-quality paper supplies has been finalized successfully.
+15,2025-04-12,439566.45000000007,4495.3,Order has been successfully placed. Estimated delivery date is 2025-04-19.
+16,2025-04-13,439566.45000000007,4495.3,"Order finalized: 500 sheets of A4 printer paper (Delivery on April 19, 2025), 200 sheets of colorful construction paper (Delivery on April 19, 2025), 100 sheets of poster board (Delivery on April 14, 2025)."
+17,2025-04-14,444288.21,4495.3,The order for the customer has been successfully finalized. Total cost: $1180.44.
+18,2025-04-14,445818.21,4495.3,Order has been finalized successfully with Transaction ID: 65.
+19,2025-04-15,445818.21,4495.3,Order finalized with transaction ID: 66
+20,2025-04-17,445818.21,4495.3,"Order finalized for unavailable items: Flyers (5,000), Posters (2,000), Tickets (10,000). Estimated delivery date: May 22, 2025."
